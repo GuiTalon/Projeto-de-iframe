@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'XD';
+    src: url(../fontes/LuckiestGuy-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+img {
+    width: 100vw;
+}
+
+a {
+    display: block;
+    background-color: darkred;
+    padding: 20px;
+    color: white;
+    font-family: "XD", "cursive";
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgba(255, 0, 0, 0.719);
+}
